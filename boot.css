@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, blue, skyblue);
+}
+header{
+    display: flex;
+    gap: 46%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+h3{
+    color: white;
+    font-size: 15px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+a:hover{
+    background-color: white;
+    color: blue;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 60vh 35vh;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+span{
+    text-decoration: underline;
+    text-decoration-color: rgb(114, 241, 114);
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin-left: 50px;
+}
+button{
+    height: 30px;
+    width: 110px;
+    color: white;
+    background-color: rgb(114, 241, 114);
+    border-radius: 7px;
+    border-color: rgb(114, 241, 114);
+    margin-left: 50px;
+}
+.div2{
+    margin-top: 130px;
+    margin-left: 75px;
+    position: relative;
+}
+.img1{
+    height: 300px;
+    position: absolute;
+    border-radius: 20px;
+}
+.img2{
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+border: 2px solid;
+    border-radius: 20px;
+    border-color: blue;
+}
